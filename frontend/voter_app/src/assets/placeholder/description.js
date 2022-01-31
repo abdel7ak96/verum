@@ -1,0 +1,2 @@
+const description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet turpis eget justo scelerisque dapibus ut eu sem. Fusce fringilla sit amet eros in sagittis. Donec egestas, nisl eget gravida porttitor, ante eros convallis velit, eget tempus lorem nulla sollicitudin sem. Vestibulum sodales molestie massa";
+export default description;
