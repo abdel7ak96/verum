@@ -1,5 +1,5 @@
 # Verum: A decentralized electronic voting system based on Blockchain technology
-<center>JavaScript ● React ● HTML ● CSS ● Ethereum ● Truffle Ganache ● Git ● Bootstrap ● Material UI ● MetaMask ● Photoshop ● LaTeX ● Solidity ● VS Code ● Web3 API ● Yarn ● Remix</center>
+<p align="center">JavaScript ● React ● HTML ● CSS ● Ethereum ● Truffle Ganache ● Git ● Bootstrap ● Material UI ● MetaMask ● Photoshop ● LaTeX ● Solidity ● VS Code ● Web3 API ● Yarn ● Remix</p>
 
 ## Introduction
 Since the dawn of democracy, elections have been accused for the lack of transparency and security. As societies all over the world are rapidly adopting technology across all aspects of society, a digitalized democratic system of voting might just be the next evolutionary step towards a transparent and trusted electoral system.
@@ -7,43 +7,43 @@ Since the dawn of democracy, elections have been accused for the lack of transpa
 ## Purpose
 The goal of this work is to investigate the possibility of using the new surging Blockchain technology as the underlying technology powering an electronic voting system, offering the ability to store the results in a decentralized ledger that should grant the solution attributes like immutability and transparency. We intend to achieve our goal by designing a decentralized e-voting system as a Proof-of-concept, capable of launching an election, casting votes and displaying results, all while ensuring transparency, anonymity, security and above all correctness of the results.
 
-<center>
+<p align="center">
     <img src="./readme_assets/verum.png" alt="Verum logo" width="150px">
-    <p><b>Figure 1:</b> Proof-of-concept ”Verum” Logo</p>
-</center>
+    <p align="center"><b>Figure 1:</b> Proof-of-concept ”Verum” Logo</p>
+</p>
 
 ## Demo
 
-<center>
+<p align="center">
     <a href="https://youtu.be/p_6XzcW1A5E" target="_blank"><img src="./readme_assets/video.jpeg" alt="Verum logo" width="450px"></a>
-    <p><b>Figure 2:</b> Quick demo video</p>
-</center>
+    <p align="center"><b>Figure 2:</b> Quick demo video</p>
+</p>
 
 ## Screenshots
 
-<center>
-    <img src="./readme_assets/admin_1.png" alt="Verum logo" width="300px">
-    <img src="./readme_assets/admin_2.png" alt="Verum logo" width="300px">
-    <img src="./readme_assets/admin_3.png" alt="Verum logo" width="300px">
-    <p><b>Figure 3:</b> Admin dashboard screenshots</p>
-</center>
+<p align="center">
+    <img src="./readme_assets/admin_1.png" alt="Verum logo" width="350px">
+    <img src="./readme_assets/admin_2.png" alt="Verum logo" width="350px">
+    <img src="./readme_assets/admin_3.png" alt="Verum logo" width="350px">
+    <p align="center"><b>Figure 3:</b> Admin dashboard screenshots</p>
+</p>
 
 
-<center>
-    <img src="./readme_assets/voter_2.png" alt="Verum logo" width="300px">
-    <img src="./readme_assets/voter_4.png" alt="Verum logo" width="300px">
-    <p><b>Figure 4:</b> Voter application screenshots</p>
-</center>
+<p align="center">
+    <img src="./readme_assets/voter_2.png" alt="Verum logo" width="350px">
+    <img src="./readme_assets/voter_4.png" alt="Verum logo" width="350px">
+    <p align="center"><b>Figure 4:</b> Voter application screenshots</p>
+</p>
 
 ## System design
 
 We introduce our proposed voting system that aims to solve some of the barriers that traditional voting systems have. Also, remedy some of the shortcomings we perceived in similar proposed works.
 
-<center>
-    <img src="./readme_assets/architecture.png" alt="Verum logo" width="300px" >
-    <p><b>Figure 5:</b> High level architecture of the proposed system and the interaction between
+<p align="center">
+    <img src="./readme_assets/architecture.png" alt="Verum logo" width="450px" >
+    <p align="center"><b>Figure 5:</b> High level architecture of the proposed system and the interaction between
 its components</p>
-</center>
+</p>
 
 ### System components
 _**a.) Admin dashboard:**_ The dashboard application provides the administrative authority with an interface to interact with both the smart contract and the backend server. This component is responsible for managing voting events. The administrative authority fills-in the event’s title, description along with candidates information and the addresses of Ethereum accounts that are authorized to cast a vote. The most critical information provided being the candidates’ names and assigned ids are stored on the Blockchain, whereas less critical information like candidates’ descriptions and media files are stored on the centralized server.
@@ -73,16 +73,16 @@ we further showcase how the different components of our system interact with eac
 
 #### Voting event creation diagram
 
-<center>
-    <img src="./readme_assets/voter_sequence_diagram.png" alt="Verum logo" width="350px">
-    <p><b>Figure 6:</b> Sequence diagram of the process of creating and launching a new voting event</p>
-</center>
+<p align="center">
+    <img src="./readme_assets/voter_sequence_diagram.png" alt="Verum logo" width="450px">
+    <p align="center"><b>Figure 6:</b> Sequence diagram of the process of creating and launching a new voting event</p>
+</p>
 
 #### Vote casting diagram
 
-<center>
-    <img src="./readme_assets/admin_sequence_diagram.png" alt="Verum logo" width="350px">
-    <p><b>Figure 7:</b> Sequence diagram of the process of casting a vote</p>
-</center>
+<p align="center">
+    <img src="./readme_assets/admin_sequence_diagram.png" alt="Verum logo" width="450px">
+    <p align="center"><b>Figure 7:</b> Sequence diagram of the process of casting a vote</p>
+</p>
 
-<center><h2>Work in progress</h2></center>
+<p align="center"><h2>Work in progress</h2></p>
